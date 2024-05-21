@@ -6,25 +6,26 @@ import { MdOutlineCss } from "react-icons/md";
 import { FaNode } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
-
-
+import '../App.css'
+import React from "react";
 
 export default function Home() {
     return (
         <>
             <header>
-                <nav>
-                    <p>Borges</p>
-                    <a href="#">Início</a>
-                    <a href="#about">Sobre</a>
-                    <a href="#skills">Habilidades</a>
-                    <a href="#project">Projetos</a>
-                    <a href="#contact">Contato</a>
-
+                <nav className="flex py-4 flex-row w-3/5 m-auto justify-between">
+                    <p className="text-2xl">Borges</p>
+                    <div className="flex text-md flex-row justify-around w-4/6">
+                        <a href="#" className="hover:border-b-terciary border-2    border-bgcolor1 transition-all ease-in-out   ">Início</a>
+                        <a href="#about" className="hover:border-b-terciary border-2    border-bgcolor1 transition-all ease-in-out">Sobre</a>
+                        <a href="#skills" className="hover:border-b-terciary border-2    border-bgcolor1 transition-all ease-in-out">Habilidades</a>
+                        <a href="#project" className="hover:border-b-terciary border-2    border-bgcolor1 transition-all ease-in-out">Projetos</a>
+                        <a href="#contact" className="hover:border-b-terciary border-2    border-bgcolor1 transition-all ease-in-out">Contato</a>
+                    </div>
                 </nav>
             </header>
             <main>
-                <section>
+                <section className="flex flex-col">
                     <div>
                         <p>Olá</p>
                         <h1>Eu sou estudante de programação</h1>
