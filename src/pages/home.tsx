@@ -4,7 +4,6 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { MdOutlineCss, MdOutlineMailOutline } from "react-icons/md";
 import { FaNode } from "react-icons/fa";
-import { FaRegPaperPlane } from "react-icons/fa";
 import '../App.css'
 import { SiLinkedin } from "react-icons/si";
 import React from "react";
