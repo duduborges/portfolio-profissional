@@ -19,6 +19,8 @@
     border: 0;
 }
 
+
+
 .fonte2 {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
@@ -37,6 +39,11 @@
     filter: drop-shadow(5px 1px 300px var(--secondary));
 }
 
+.flutuando {
+    transform: translateY(0px);
+    animation: float2 3s ease-in-out infinite;
+}
+
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -51,8 +58,26 @@
     }
 }
 
-body {
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
 
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+a {
+    scroll-behavior: smooth;
+
+}
+
+body {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
