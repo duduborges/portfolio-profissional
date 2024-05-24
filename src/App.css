@@ -19,7 +19,13 @@
     border: 0;
 }
 
+a {
+    scroll-behavior: smooth;
+}
 
+div:target {
+    scroll-behavior: smooth;
+}
 
 .fonte2 {
     font-family: "Abril Fatface", serif;
@@ -75,6 +81,10 @@
 a {
     scroll-behavior: smooth;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
