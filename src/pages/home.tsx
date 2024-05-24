@@ -6,7 +6,6 @@ import { MdOutlineCss, MdOutlineMailOutline } from "react-icons/md";
 import { FaNode } from "react-icons/fa";
 import '../App.css'
 import { SiLinkedin } from "react-icons/si";
-import React from "react";
 import jogoDaVelha from "../assets/jogo-da-velha.png"
 import anotaSenai from "../assets/anota-senai.png"
 import dataCloud from "../assets/datacloud.png"
