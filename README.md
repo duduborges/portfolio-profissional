@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+#Portfólio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório para salvar o meu porfólio
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+INSTALAÇÃO:
 
-## Expanding the ESLint configuration
+git clone https://github.com/duduborges/portfolio-profissional
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+navegue ate a pasta pelo seu vscode
 
-- Configure the top-level `parserOptions` property like this:
+abra o terminal na pasta que voce clonou
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+digite o comando 
+"npm install"
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Pronto, agora você tem meu porfólio salvo
+
+
+INICIAR:
+
+para executar o portfólio, para colocar ele no ar, digite o comando:
+"npm run dev"
+
+
+ele provavelmente irá abrir no http://localhost:5173/
+
+
+LINK PARA NAVEGAÇÃO:
+
+https://portfolio-borges.vercel.app/
